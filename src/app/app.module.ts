@@ -10,6 +10,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatListModule,
     MatSidenavModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
